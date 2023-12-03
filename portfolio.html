@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>AnySyn3D</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<!--For images carousel-->
+<script type="text/javascript" src="js/jquery.1.4.2.min.js"></script>
+<!--For Portfolio-->
+<script src="js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+<script type="text/javascript" src="js/setting.js"></script>
+<!--For Menu-->
+<script type='text/javascript' src='js/superfish3d36.js?ver=3.3.1'></script>
+<script type='text/javascript' src='js/jquery.custom5152.js?ver=1.0'></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!--For prettyPhoto-->
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet"  />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" ></script>
+</head>
+<body>
+<!-- Header Start-->
+    
+<div class="header-wrapper-light">
+    
+  <div id="header"><a href="index.html" id="logo"><img src="images/logo.png" alt="" /></a>
+    <!-- Top Menu Start-->
+    <div id="primary-nav">
+      <ul id="menu-primary-menu" class="sf-menu">
+        <li><a href="index.html"><span>Homepage</span></a> </li>
+        <li><a href="portfolio.html" class="sf-with-ul">Research</a>
+          <ul class="sub-menu">
+            <li><a href="portfolio.html"><span>3D AIGC</span></a></li>
+            <li><a href="portfolio.html"><span>Animation</span></a></li>
+            <li><a href="portfolio.html"><span>Geometry</span></a></li>
+            <li><a href="portfolio.html"><span>3D Reconstruction</span></a></li>
+            <!-- <li><a href="blog_post.html"><span>Post Page</span></a></li> -->
+          </ul>
+        </li>
+        <li><a href="about.html"><span>About</span></a></li>
+      </ul>
+    </div>
+  </div>
+    
+    
+<!-- Middle Part Start-->
+<div id="middle-wrapper">
+  <!-- Left Section Start-->
+  <div class="portleft">
+    <h3>Topic Field</h3>
+    <ul class="portfolio_list spacermin10">
+      <li class="active"><span>&rarr;</span> <a href="#" class="all">All</a> </li>
+      <li><span>&rarr;</span> <a href="#" class="3daigc">3D AIGC</a></li>
+      <li><span>&rarr;</span> <a href="#" class="animation">Animation</a></li>
+      <li><span>&rarr;</span> <a href="#" class="geometry">Geometry</a></li>
+      <li><span>&rarr;</span> <a href="#" class="3drecon">3D Reconstruction</a></li>
+<!--
+      <li><span>&rarr;</span> <a href="#" class="branding">Logo Design</a></li>
+      <li><span>&rarr;</span> <a href="#" class="print">Print</a></li>
+      <li><span>&rarr;</span> <a href="#" class="branding">Branding</a></li>
+-->
+    </ul>
+  </div>
+  <!-- Right Section Start-->
+  <div class="portright">
+    <h3>Our Works</h3>
+    <ul class="portfolio_contain gallery">
+      <li data-id="id-1" data-type="3daigc" class="main" > <a href = "https://www.xxlong.site/Wonder3D/" target="_blank"><img src="images/wonder3d.jpg" alt="" width="212" height="129"/> Wonder3D <span>Single Image to 3D using Cross-Domain Diffusion</span></a> </li> 
+      <li data-id="id-2" data-type="3daigc" class="main"> <a href = "https://liuyuan-pal.github.io/SyncDreamer/" target="_blank"><img src="images/syncdreamer.png" alt="" width="212" height="129"/> SyncDreamer <span>Generating Multiview-consistent Images from a Single-view Image</span> </a></li>
+      <li data-id="id-3" data-type="3drecon" class="main last "> <a href = "https://lingjie0206.github.io/papers/NeuS/" target="_blank"><img src="images/neus.jpg" alt=""  width="212" height="129"/> NeuS <span>Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction</span></a> </li>
+      <li data-id="id-4" data-type="3drecon" class="main"> <a><img src="images/sparseneus.png" alt=""  width="212" height="129"/>SparseNeuS <span>Fast Generalizable Neural Surface Reconstruction from Sparse Views</span></a></li>
+      <li data-id="id-5" data-type="geometry" class="main"> <a><img src="images/coverageaxis.png" alt="" width="212" height="129"/> Coverage Axis<span>Coverage Axis: Inner Point Selection for 3D Shape Skeletonization</span></a></li>
+      <li data-id="id-6" data-type="animation" class="main last"> <a><img src="images/case.png" alt=""  width="212" height="129"/>C·ASE <span>Learning Conditional Adversarial Skill Embeddings for Physics-based Characters</span></a> </li>
+      <li data-id="id-7" data-type="3drecon" class="main"> <a href="images/big-img.jpg" rel="prettyPhoto[gallery2]"><img src="images/port7.jpg" alt="" />Graphic River <span>Website Design</span></a></li>
+      <li data-id="id-8" data-type="3drecon" class="main"> <a href="images/big-img.jpg" rel="prettyPhoto[gallery2]"><img src="images/port8.jpg" alt="" />Rockable Press <span>Branding</span></a></li>
+      <li data-id="id-9" data-type="geometry" class="main last"> <a href="images/big-img.jpg" rel="prettyPhoto[gallery2]"><img src="images/port9.jpg" alt=""  />Rockstar Freelancer <span>e-Commerce Design</span></a></li>
+      <li data-id="id-10" data-type="3daigc" class="main last"> <a href="images/big-img.jpg" rel="prettyPhoto[gallery2]"><img src="images/port10.jpg" alt=""  />Collis Ta&#8217;eed <span>Interface Design</span></a></li>
+      <li data-id="id-11" data-type="3daigc" class="main last"> <a href="images/big-img.jpg" rel="prettyPhoto[gallery2]"><img src="images/port11.jpg" alt=""  />Say It Print! <span>Print</span></a></li>
+      <li data-id="id-12" data-type="3daigc" class="main last"> <a href="images/big-img.jpg" rel="prettyPhoto[gallery2]"><img src="images/port12.jpg" alt=""  />Mini Cards <span>Advertisement</span></a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Footer Part Start-->
+<div id="footer">
+  <div id="footer-inner">
+    <div class="footer-details">
+      <div class="logo-btm"><img src="images/logo.png" alt="" /> </div>
+<!--      <p>We create anything in 3D.</p>-->
+      <ul class="social">
+        <li class="facebook"> <a href="#"> </a> </li>
+        <li class="twitter"> <a href="#"> </a></li>
+        <li class="vimeo"> <a href="#"> </a></li>
+        <li class="linkdin"><a href="#"> </a> </li>
+        <li class="flickr"> <a href="#"> </a></li>
+      </ul>
+    </div>
+    <div class="footer-details">
+      <h4>Contact Details</h4>
+      <div class="address"> <strong>Email:</strong> <a href="#">anysyn3d@gmail.com</a></div>
+      <div class="address"> <strong>Github:</strong> <a href="#">https://github.com/anysyn3d</a></div>
+      <div class="address"> <strong>Homepage:</strong> <a href="#">https://www.anysyn3d.com</a></div>
+
+    </div>
+    <div class="footer-details">
+      <h4>More Information</h4>
+      <div class="Stream">
+	  <a href="#"><img src="images/tech_photo1.jpg" width="59" height="59" alt="" /></a>
+	  <a href="#"><img src="images/tech_photo2.jpg" width="59" height="59" alt="" /></a>
+	  <a href="#"><img src="images/tech_photo3.jpg" width="59" height="59" alt=""  class="no-margin"/></a>
+	  </div>
+    </div>
+
+    <!-- Footer Info Part Start-->
+    <div class="Finfo">
+      <div class="copyright">&copy; Copyright &copy; 2023. AnySyn3D All rights reserved. </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

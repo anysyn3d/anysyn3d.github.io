@@ -468,10 +468,10 @@ ol li ol.childlist .comment-des{ float:right; width:85%}
 .portright{float:left; width:712px}
 
 .portfolio_container{position:relative}
-.portfolio_contain{margin:9px 0 0 -7px; padding:0px; width:738px; float:left}
+.portfolio_contain{margin:0px 0 0 -7px; padding:10px; width:738px; float:left}
 /* portfolio_list */
 .portfolio_list{float:left; width:100%; list-style:none; position:relative; padding:0px 0px 0px 0px}
-.portfolio_list li{float:left; color:#57595d; margin:0px; width:100%}
+.portfolio_list li{float:left; color:#57595d; margin:5px; width:100%}
 .portfolio_list li span{float:left; display:block; line-height:22px; color: #adafb4; font-family: Arial, sens-serif; font-size: 14px;}
 .portfolio_list a{color:#57595d; float:left; padding:0px 10px 4px 10px; text-decoration:none; width:auto !important; line-height:26px !important;  font-size:12px}
 
@@ -484,7 +484,7 @@ ul.portfolio_list li.active a, ul.portfolio_list li a:hover{color:#729700}
 /* ------------- portfolio structure ------------ */
 .qitem, .main{float:left; width:179px; height:134px; padding:0 !important;  overflow:hidden; position:relative; cursor:hand; cursor:pointer; margin:0px 20px 20px 0px}
 .omega{margin:0px !important}
-.main{width:234px; margin-bottom:17px; margin-right:12px; height:200px; border:0px solid #fff}
+.main{width:234px; margin-bottom:17px; margin-right:12px; height:210px; border:0px solid #fff}
 .qitem img{border:0; position:absolute; z-index:200}
 
 /* Setting for corners */
